@@ -8,3 +8,68 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header {
+  height: 550px;
+  background-color: #0C325A;
+  color: #fff;
+}
+
+.container-header {
+  margin-bottom: 80px;
+}
+
+.container-header div {
+  float: left;
+}
+
+.logo-header {
+  margin-right: 70px;
+}
+
+/* Menù di navigazione */
+header nav {
+  margin-top: 14px;
+}
+
+.nav-2 {
+  margin-left: 110px;
+}
+
+header ul li {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-right: 20px;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Bottoni */
+#login {
+  border: 1px solid #fff;
+  padding: 6px 30px;
+  border-radius: 5px;
+}
+
+.button {
+  background-color: #7CBB02;
+  padding: 8px 20px;
+  border-radius: 5px;
+}
+
+.hero {
+  height: 428px;
+  background-image: url(../img/background-header.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: 69%; 
+}
