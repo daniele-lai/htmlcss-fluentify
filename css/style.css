@@ -44,7 +44,7 @@ header nav {
 }
 
 .nav-2 {
-  margin-left: 110px;
+  margin-left: 130px;
 }
 
 header ul li {
@@ -102,4 +102,20 @@ header a {
   margin-bottom: 35px;
   font-weight: 500;
   font-size: 50px;
+}
+
+/* Main */
+.section-1 {
+  text-align: center;
+  background-color: #D3D3D3;
+  padding: 2%;
+}
+
+.section-1 h2 {
+  font-weight: 500;
+}
+
+.section-1 p {
+  color: #939393;
+  margin-top: 9px;
 }
