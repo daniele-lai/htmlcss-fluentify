@@ -25,6 +25,13 @@ header {
   margin-left: 8%;
 }
 
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+/* Menù di navigazione */
+
 .menu-nav {
   padding-top: 15px;
   margin-bottom: 80px;
@@ -38,7 +45,6 @@ header {
   margin-right: 70px;
 }
 
-/* Menù di navigazione */
 header nav {
   margin-top: 14px;
 }
@@ -116,6 +122,46 @@ header a {
 }
 
 .section-1 p {
-  color: #939393;
   margin-top: 9px;
+}
+
+p {
+  color: #939393;
+}
+
+/* Tre colonne */
+
+.col {
+  width: 33%;
+  float: left;
+  text-align: center;
+  padding-right: 2%;
+  margin: 30px 0;
+}
+
+.col-img {
+  height: 115px;
+}
+
+.col-img img {
+  height: 100%;
+}
+
+.col h2 {
+  color: #7CBB02;
+  font-weight: 500;
+  font-size: 26px;
+}
+
+.col hr {
+  margin: auto;
+  width: 20%;
+}
+
+.col h2, p {
+  margin: 15px;
+}
+
+.col p {
+  font-size: 14px;
 }
