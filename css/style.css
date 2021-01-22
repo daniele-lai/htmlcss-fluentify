@@ -8,18 +8,19 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
 .clearfix::after {
   content: "";
   display: block;
   clear: both;
 }
 
-header {
-  height: 550px;
-  background-color: #0C325A;
-  color: #fff;
+.col-img img, .mountain.left img {
+  height: 100%;
+  width: 100%;
 }
 
+/* Div container */
 .container-header {
   height: 550px;
   margin-left: 8%;
@@ -29,6 +30,13 @@ header {
   margin: auto;
   width: 80%;
 }
+
+header {
+  height: 550px;
+  background-color: #0C325A;
+  color: #fff;
+}
+
 
 /* Menù di navigazione */
 
@@ -143,9 +151,6 @@ p {
   height: 115px;
 }
 
-.col-img img {
-  height: 100%;
-}
 
 .col h2 {
   color: #7CBB02;
@@ -158,10 +163,49 @@ p {
   width: 20%;
 }
 
-.col h2, p {
+.col h2, .col p {
   margin: 15px;
 }
 
 .col p {
   font-size: 14px;
+}
+
+hr {
+  width: 98%;
+  margin: auto;
+}
+
+/* Section montagna */
+
+.mountain {
+  float: left;
+  width: 50%;
+  margin: 30px 0;
+}
+
+.mountain.left {
+  height: 350px;
+}
+
+.mountain.right * {
+  margin: 10px 0;
+}
+
+.mountain.right h2, .mountain.right p {
+  width: 70%;
+}
+
+.mountain.right h2 {
+  font-size: 25px;
+}
+
+.mountain.right p {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.mountain.right a {
+  font-size: 11px;
+  color: #5687BD;
 }
