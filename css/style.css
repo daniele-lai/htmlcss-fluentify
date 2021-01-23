@@ -31,14 +31,17 @@ body {
   width: 80%;
 }
 
+.section-1, footer {
+  background-color: #D3D3D3;
+}
+
+/* Menù di navigazione */
+
 header {
   height: 550px;
   background-color: #0C325A;
   color: #fff;
 }
-
-
-/* Menù di navigazione */
 
 .menu-nav {
   padding-top: 15px;
@@ -68,7 +71,7 @@ header ul li {
   padding-right: 20px;
 }
 
-header a {
+header a, footer a, .help {
   color: #fff;
   text-decoration: none;
 }
@@ -89,7 +92,7 @@ header a {
   border-radius: 5px;
 }
 
-.hero .button {
+.hero .button, footer .button, .help {
   text-transform: uppercase;
   font-size: 12px;
   padding: 15px 20px;
@@ -121,7 +124,6 @@ header a {
 /* Main */
 .section-1 {
   text-align: center;
-  background-color: #D3D3D3;
   padding: 2%;
 }
 
@@ -133,7 +135,7 @@ header a {
   margin-top: 9px;
 }
 
-p {
+p, .footer-right, .footer-right select  {
   color: #939393;
 }
 
@@ -178,10 +180,13 @@ hr {
 
 /* Section montagna */
 
-.mountain {
+.mountain, .footer-left, .footer-right {
   float: left;
-  width: 50%;
+}
+
+.mountain {
   margin: 30px 0;
+  width: 50%;
 }
 
 .mountain.left {
@@ -196,8 +201,8 @@ hr {
   width: 70%;
 }
 
-.mountain.right h2 {
-  font-size: 25px;
+.mountain.right h2, footer h2 {
+  font-size: 29px;
 }
 
 .mountain.right p {
@@ -208,4 +213,37 @@ hr {
 .mountain.right a {
   font-size: 11px;
   color: #5687BD;
+}
+
+/* Footer */
+footer {
+  padding: 45px;
+}
+
+.footer-left, .footer-right {
+  width: 45%;
+}
+
+.footer-right {
+  margin-left: 9%;
+  margin-top: 1%;
+}
+
+.footer-right select {
+  background-color: transparent;
+  border: 0;
+  border-bottom: 1px solid #939393;
+  font-size: 16px;
+  width: 130px;
+}
+
+.footer-right * {
+  margin-left: 20px;
+}
+
+
+.help {
+  position: fixed;
+  bottom: 0;
+  right: 15%;
 }
